@@ -1,0 +1,18 @@
+button {
+    background-color: #2788ed;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #1366d6;
+}
+
+.evento {
+    background-color:   white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}

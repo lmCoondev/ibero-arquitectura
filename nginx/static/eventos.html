@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Crear Evento</h2>
+        <input type="text" id="nombre" placeholder="Nombre del evento">
+        <input type="date" id="fecha">
+        <input type="text" id="lugar" placeholder="Lugar">
+        <button onclick="crearEvento()">Crear</button>
+        <button onclick="cerrarSesion()" style="background: red; margin-top:10px">Cerrar Sesion</button>
+        <div id="eventos"></div>
+    </div>
+
+    <script src="script_eventos.js"></script>
+</body>
+</html>
